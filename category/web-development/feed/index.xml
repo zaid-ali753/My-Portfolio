@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Web Development &#8211; SYED ZAID ALI</title>
+	<atom:link href="http://localhost/category/web-development/feed/" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>My Portfolio</description>
+	<lastBuildDate>Thu, 04 Mar 2021 14:23:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>What Is the best web</title>
+		<link>./../../../2019/01/06/what-is-the-best-web/index.html</link>
+					<comments>./../../../2019/01/06/what-is-the-best-web/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Zaid]]></dc:creator>
+		<pubDate>Sun, 06 Jan 2019 11:48:56 +0000</pubDate>
+				<category><![CDATA[Web Development]]></category>
+		<guid isPermaLink="false">http://demo.acmethemes.com/portfolio-web/?p=111</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+										<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2019/01/06/what-is-the-best-web/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Design Cheatsheet 2018</title>
+		<link>./../../../2019/01/06/design-cheatsheet-2018/index.html</link>
+					<comments>./../../../2019/01/06/design-cheatsheet-2018/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Zaid]]></dc:creator>
+		<pubDate>Sun, 06 Jan 2019 11:47:37 +0000</pubDate>
+				<category><![CDATA[Web Development]]></category>
+		<guid isPermaLink="false">http://demo.acmethemes.com/portfolio-web/?p=107</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+										<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2019/01/06/design-cheatsheet-2018/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

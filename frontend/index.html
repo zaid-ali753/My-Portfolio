@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en-US">
+        	<head>
+
+		        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="profile" href="//gmpg.org/xfn/11">
+        <title>Backend Python &#8211; SYED ZAID ALI</title>
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//use.fontawesome.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="SYED ZAID ALI &raquo; Feed" href="./../feed/index.html">
+<link rel="alternate" type="application/rss+xml" title="SYED ZAID ALI &raquo; Comments Feed" href="./../comments/feed/index.html">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./../wp-includes/css/dist/block-library/style.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-theme-css" href="./../wp-includes/css/dist/block-library/theme.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome-css" href="./../wp-content/plugins/gutentor/assets/library/font-awesome-4.7.0/css/font-awesome.min.css?ver=4" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="./../wp-content/plugins/gutentor/assets/library/animatecss/animate.min.css?ver=3.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="wpness-grid-css" href="./../wp-content/plugins/gutentor/assets/library/wpness-grid/wpness-grid.min.css?ver=1.0.0" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="./../wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4" type="text/css" media="all">
+<link rel="stylesheet" id="raratheme-companion-css" href="./../wp-content/plugins/raratheme-companion/public/css/raratheme-companion-public.min.css?ver=1.3.6" type="text/css" media="all">
+<link rel="stylesheet" id="portfolio-web-googleapis-css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Work+Sans:100,200,300,400,500,600,700,800,900" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="./../wp-content/themes/portfolio-web/assets/library/bootstrap/css/bootstrap.min.css?ver=3.3.6" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="./../wp-content/themes/portfolio-web/assets/library/Font-Awesome/css/font-awesome.min.css?ver=4.5.0" type="text/css" media="all">
+<link rel="stylesheet" id="slick-css" href="./../wp-content/plugins/gutentor/assets/library/slick/slick.min.css?ver=1.8.1" type="text/css" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="./../wp-content/plugins/gutentor/assets/library/magnific-popup/magnific-popup.min.css?ver=1.8.0" type="text/css" media="all">
+<link rel="stylesheet" id="portfolio-web-style-css" href="./../wp-content/themes/portfolio-web/style.css?ver=5.6.2" type="text/css" media="all">
+<style id="portfolio-web-style-inline-css" type="text/css">.inner-main-title {
+                background-image:url('./../wp-content/uploads/2021/03/christopher-gower-vjMgqUkS8q8-unsplash-scaled.jpg');
+                background-repeat:no-repeat;
+                background-size:cover;
+                -webkit-background-size:cover;
+                background-attachment:fixed;
+                background-position: center; 
+                height: 247px;
+            }
+            .top-header{
+                background-color: #4f6df5;
+            }
+            .site-footer{
+                background-color: #1b1b1b;
+            }
+            .copy-right{
+                background-color: #2d2d2d;
+            }
+            .site-title:hover,
+	        .site-title a:hover,
+	        .site-title a:focus,
+			 .at-social .socials li a,
+			 .primary-color,
+			 #portfolio-web-breadcrumbs a:hover,
+			 #portfolio-web-breadcrumbs a:focus,
+			 .woocommerce .star-rating, 
+            .woocommerce ul.products li.product .star-rating,
+            .woocommerce p.stars a,
+            .woocommerce ul.products li.product .price,
+            .woocommerce ul.products li.product .price ins .amount,
+			.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+			.woocommerce-message::before,
+			.acme-contact .contact-page-content ul li strong,
+			.acme-contact .contact-page-content ul li strong,
+            .main-navigation .acme-normal-page .current_page_item > a,
+            .main-navigation .acme-normal-page .current-menu-item > a,
+            .at-sticky .main-navigation .acme-normal-page .current_page_item > a,
+            .at-sticky .main-navigation .acme-normal-page .current-menu-item > a,
+            .main-navigation .acme-normal-page .current_page_item li a:hover,
+            .main-navigation .acme-normal-page .current-menu-item li a:hover,
+            .main-navigation .acme-normal-page ul li a:hover,
+            .at-sticky .main-navigation .acme-normal-page .current_page_item li a:hover,
+            .at-sticky .main-navigation .acme-normal-page .current-menu-item li a:hover,
+            .at-sticky .main-navigation .acme-normal-page ul li a:hover,
+            .main-navigation .active a,
+            .main-navigation .navbar-nav > li a:hover,
+             .woocommerce a.button.add_to_cart_button:hover,
+            .woocommerce a.added_to_cart:hover,
+            .woocommerce a.button.product_type_grouped:hover,
+            .woocommerce a.button.product_type_external:hover,
+            .woocommerce .cart .button:hover,
+            .woocommerce .cart input.button:hover,
+            .woocommerce #respond input#submit.alt:hover,
+			.woocommerce a.button.alt:hover,
+			.woocommerce button.button.alt:hover,
+			.woocommerce input.button.alt:hover,
+			.woocommerce .woocommerce-info .button:hover,
+			.woocommerce .widget_shopping_cart_content .buttons a.button:hover,
+			i.slick-arrow:hover,
+            .main-navigation li li a:focus,
+            .main-navigation .acme-normal-page .current_page_item li a:focus,
+            .main-navigation .acme-normal-page .current-menu-item li a:focus,
+            .main-navigation .acme-normal-page ul li a:focus,
+            .at-sticky .main-navigation .acme-normal-page .current_page_item li a:focus,
+            .at-sticky .main-navigation .acme-normal-page .current-menu-item li a:focus,
+            .at-sticky .main-navigation .acme-normal-page ul li a:focus,
+            .main-navigation .navbar-nav > li a:focus,
+             .woocommerce a.button.add_to_cart_button:focus,
+            .woocommerce a.added_to_cart:focus,
+            .woocommerce a.button.product_type_grouped:focus,
+            .woocommerce a.button.product_type_external:focus,
+            .woocommerce .cart .button:focus,
+            .woocommerce .cart input.button:focus,
+            .woocommerce #respond input#submit.alt:focus,
+			.woocommerce a.button.alt:focus,
+			.woocommerce button.button.alt:focus,
+			.woocommerce input.button.alt:focus,
+			.woocommerce .woocommerce-info .button:focus,
+			.woocommerce .widget_shopping_cart_content .buttons a.button:focus,
+			i.slick-arrow:focus,
+            .main-navigation li li a:focus{
+                color: #0f3891;
+            }
+            .main-navigation .current_page_ancestor > a:before,
+            .comment-form .form-submit input,
+            .btn-primary,
+            .wpcf7-form input.wpcf7-submit,
+            .wpcf7-form input.wpcf7-submit:hover,
+            .wpcf7-form input.wpcf7-submit:focus,
+            .sm-up-container,
+            .btn-primary.btn-reverse:before,
+            #at-shortcode-bootstrap-modal .modal-header,
+            .primary-bg,
+			.navigation.pagination .nav-links .page-numbers.current,
+			.navigation.pagination .nav-links a.page-numbers:hover,
+			.navigation.pagination .nav-links a.page-numbers:focus,
+			.woocommerce .product .onsale,
+			.woocommerce a.button.add_to_cart_button,
+			.woocommerce a.added_to_cart,
+			.woocommerce a.button.product_type_grouped,
+			.woocommerce a.button.product_type_external,
+			.woocommerce .single-product #respond input#submit.alt,
+			.woocommerce .single-product a.button.alt,
+			.woocommerce .single-product button.button.alt,
+			.woocommerce .single-product input.button.alt,
+			.woocommerce #respond input#submit.alt,
+			.woocommerce a.button.alt,
+			.woocommerce button.button.alt,
+			.woocommerce input.button.alt,
+			.woocommerce .widget_shopping_cart_content .buttons a.button,
+			.woocommerce div.product .woocommerce-tabs ul.tabs li:hover,
+			.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+			.woocommerce .cart .button,
+			.woocommerce .cart input.button,
+			.woocommerce input.button:disabled, 
+			.woocommerce input.button:disabled[disabled],
+			.woocommerce input.button:disabled:hover, 
+			.woocommerce input.button:disabled:focus, 
+			.woocommerce input.button:disabled[disabled]:hover,
+			.woocommerce input.button:disabled[disabled]:focus,
+			 .woocommerce nav.woocommerce-pagination ul li a:focus, 
+			 .woocommerce nav.woocommerce-pagination ul li a:hover, 
+			 .woocommerce nav.woocommerce-pagination ul li span.current,
+			 .woocommerce a.button.wc-forward,
+			 .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+			 .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+			 .navbar .cart-wrap .acme-cart-views a span,
+			 .acme-gallery .read-more,
+             .woocommerce a.button.alt.disabled, 
+              .woocommerce a.button.alt.disabled:hover, 
+              .woocommerce a.button.alt:disabled, 
+              .woocommerce a.button.alt:disabled:focus, 
+              .woocommerce a.button.alt:disabled[disabled], 
+              .woocommerce a.button.alt:disabled[disabled]:hover, 
+              .woocommerce a.button.alt:disabled[disabled]:focus, 
+              .woocommerce button.button.alt.disabled,
+             .woocommerce-MyAccount-navigation ul > li> a:hover,
+             .woocommerce-MyAccount-navigation ul > li> a:focus,
+             .woocommerce-MyAccount-navigation ul > li.is-active > a,
+             .featured-button.btn,
+             .btn-primary:hover,
+             .btn-primary:focus,
+             .btn-primary:active,
+             .btn-primary:active:hover,
+             .btn-primary:active:focus,
+             .btn-primary:focus{
+                background-color: #0f3891;
+                color:#fff;
+                border:1px solid #0f3891;
+            }
+            .woocommerce .cart .button, 
+            .woocommerce .cart input.button,
+            .woocommerce a.button.add_to_cart_button,
+            .woocommerce a.added_to_cart,
+            .woocommerce a.button.product_type_grouped,
+            .woocommerce a.button.product_type_external,
+            .woocommerce .cart .button,
+            .woocommerce .cart input.button
+            .woocommerce .single-product #respond input#submit.alt,
+			.woocommerce .single-product a.button.alt,
+			.woocommerce .single-product button.button.alt,
+			.woocommerce .single-product input.button.alt,
+			.woocommerce #respond input#submit.alt,
+			.woocommerce a.button.alt,
+			.woocommerce button.button.alt,
+			.woocommerce input.button.alt,
+			.woocommerce .widget_shopping_cart_content .buttons a.button,
+			.woocommerce div.product .woocommerce-tabs ul.tabs:before{
+                border: 1px solid #0f3891;
+            }
+            .blog article.sticky{
+                border-bottom: 2px solid #0f3891;
+            }
+        a,
+        .posted-on a,
+        .single-item .fa,
+        .author.vcard a,
+        .comments-link a,
+        .edit-link a,
+        .tags-links a,
+        .byline a,
+        .nav-links a,
+        .widget li a,
+        .entry-meta i.fa, 
+        .entry-footer i.fa,
+        .counter-item i,
+        .testimonial-content::after
+         {
+            color: #d865d1;
+        }
+        a:hover,
+        a:active,
+        a:focus,
+        .posted-on a:hover,
+        .single-item .fa:hover,
+        .author.vcard a:hover,
+        .comments-link a:hover,
+        .edit-link a:hover,
+        .tags-links a:hover,
+        .byline a:hover,
+        .nav-links a:hover,
+        .widget li a:hover,
+        .posted-on a:focus,
+        .single-item .fa:focus,
+        .author.vcard a:focus,
+        .comments-link a:focus,
+        .edit-link a:focus,
+        .tags-links a:focus,
+        .byline a:focus,
+        .nav-links a:focus,
+        .widget li a:focus,
+        .close-menu:hover,
+        .close-menu:focus{
+            color: #3f5dcf;
+        }
+       .btn-reverse,
+       .image-slider-wrapper .slider-content .btn-reverse:hover,
+       .at-widgets.at-parallax .btn-reverse:hover,
+       .image-slider-wrapper .slider-content .btn-reverse:focus,
+       .at-widgets.at-parallax .btn-reverse:focus,
+       .at-price h2{
+            color: #0f3891;
+        }
+       .btn-reverse:hover,
+       .image-slider-wrapper .slider-content .btn-reverse:hover,
+       .at-widgets.at-parallax .btn-reverse:hover,
+       .btn-reverse:focus,
+       .image-slider-wrapper .slider-content .btn-reverse:focus,
+       .at-widgets.at-parallax .btn-reverse:focus{
+            background: #0f3891;
+            color:#fff;
+            border-color:#0f3891;
+        }        
+       .woocommerce #respond input#submit, 
+       .woocommerce a.button, 
+       .woocommerce button.button, 
+       .woocommerce input.button{
+            background: #0f3891;
+            color:#fff;
+        }
+       .team-img-box:before{
+            -webkit-box-shadow: 0 -106px 92px -35px #4f6df5 inset;
+			box-shadow: 0 -106px 92px -35px #4f6df5 inset;
+        }
+       .at-pricing-box:hover .at-pricing-img-box::before{
+            -webkit-box-shadow: 0 -130px 92px -35px #4f6df5 inset;
+            box-shadow: 0 -130px 92px -35px #4f6df5 inset;
+        }
+       .at-pricing-box:focus-within .at-pricing-img-box::before{
+            -webkit-box-shadow: 0 -130px 92px -35px #4f6df5 inset;
+            box-shadow: 0 -130px 92px -35px #4f6df5 inset;
+        }
+        
+       .filters.button-group button:hover,
+       .filters.button-group button:focus{
+            background: #0f3891;
+            color:#fff;
+        }
+        .acme-services.normal .column .single-item:hover,
+        .acme-services.normal .column .single-item:hover:after,
+        .acme-services.normal .column .single-item:hover:before{
+            border-color: #0f3891;
+        }
+        .acme-services.normal .column .single-item:focus-within,
+        .acme-services.normal .column .single-item:focus-within:after,
+        .acme-services.normal .column .single-item:focus-within:before{
+            border-color: #0f3891;
+        }
+        .contact-form div.wpforms-container-full .wpforms-form input[type='submit'], 
+        .contact-form div.wpforms-container-full .wpforms-form button[type='submit'], 
+        .contact-form div.wpforms-container-full .wpforms-form .wpforms-page-button{
+			background-color: #0f3891;
+            color:#fff;
+            border:1px solid #0f3891;
+        }
+        .acme-accordions .accordion-title:hover,    
+        .acme-accordions .accordion-title:focus,    
+        .acme-accordions .accordion-title.active,    
+        .acme-accordions .accordion-title.active a{
+            border-color:#0f3891;
+            background:#0f3891;
+             
+        }
+       .scroll-box span:after,
+       .sm-up-container,
+       .at-pricing-img-box .at-price,
+       .at-timeline-block.current .at-timeline-img,
+       .navbar-toggle:hover span.menu-icon span,
+       .at-action-wrapper .slick-arrow{
+            background:#d865d1;
+             
+        }
+       .navbar-toggle:focus-within span.menu-icon span{
+            background:#d865d1;
+             
+        }
+       .sm-up-container:hover,
+       .at-action-wrapper .slick-arrow:hover,
+       .sm-up-container:focus,
+       .at-action-wrapper .slick-arrow:focus{
+            background:#3f5dcf;
+             
+        }</style>
+<link rel="stylesheet" id="portfolio_web-block-front-styles-css" href="./../wp-content/themes/portfolio-web/acmethemes/gutenberg/gutenberg-front.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-official-css" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" type="text/css" media="all" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+<link rel="stylesheet" id="wp-components-css" href="./../wp-includes/css/dist/components/style.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-editor-css" href="./../wp-includes/css/dist/block-editor/style.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-nux-css" href="./../wp-includes/css/dist/nux/style.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-editor-css" href="./../wp-includes/css/dist/editor/style.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="gutentor-css" href="./../wp-content/plugins/gutentor/dist/blocks.style.build.css?ver=3.0.5" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-official-v4shim-css" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css" type="text/css" media="all" integrity="sha384-1CjXmylX8++C7CVZORGA9EwcbYDfZV2D4Kl1pTm3hp2I/usHDafIrgBJNuRTDQ4f" crossorigin="anonymous">
+<style id="font-awesome-official-v4shim-inline-css" type="text/css">@font-face {
+font-family: "FontAwesome";
+src: url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+src: url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+src: url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+}</style>
+<script type="text/javascript" src="./../wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='./wp-content/themes/portfolio-web/assets/library/html5shiv/html5shiv.min.js?ver=3.7.3' id='html5-js'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='./wp-content/themes/portfolio-web/assets/library/respond/respond.min.js?ver=1.1.2' id='respond-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="./../wp-json/index.html">
+<link rel="alternate" type="application/json" href="./../wp-json/wp/v2/pages/104/index.html">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./../wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.6.2">
+<link rel="canonical" href="./index.html">
+<link rel="shortlink" href="./../index.html?p=104">
+<link rel="alternate" type="application/json+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2Ffrontend%2F">
+<link rel="alternate" type="text/xml+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2Ffrontend%2F&#038;format=xml">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	</head>
+<body class="page-template-default page page-id-104 gutentor-active menu-classic acme-animate right-sidebar">
+
+        <div class="site" id="page">
+                <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+                <div class="navbar at-navbar " id="navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="menu-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <!-- <i class="fa fa-bars"></i> -->
+                    </button>
+                    <span class="logo">                      
+                  
+                                                            <p class="site-title">
+                                        <a href="./../index.html" title="SYED ZAID ALI" rel="home">SYED ZAID ALI</a>
+                                    </p>
+                                                                    <p class="site-description">My Portfolio</p>
+                                                    </span>
+                </div>
+                <div class="at-beside-navbar-header">
+                    <a href="#" class="close-menu">
+                        <span class="menu-icon">
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+	                        <div class="search-woo">
+			        </div>
+		<div class="main-navigation navbar-collapse collapse">
+					</div>
+<!--/.nav-collapse -->
+		                </div>
+                <!--.at-beside-navbar-header-->
+            </div>
+        </div>
+        	<div class="wrapper inner-main-title">
+				<div class="container">
+			<header class="entry-header init-animate">
+				<h1 class="entry-title">Backend Python</h1>
+<div class="breadcrumbs init-animate"><div id="portfolio-web-breadcrumbs">
+<!-- Breadcrumb NavXT 6.6.0 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to SYED ZAID ALI." href="./../index.html" class="home"><span property="name">SYED ZAID ALI</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">Backend Python</span><meta property="url" content="./frontend/">
+<meta property="position" content="2"></span>
+</div></div>			</header><!-- .entry-header -->
+		</div>
+	</div>
+	<div id="content" class="site-content container clearfix">
+		<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			<article id="post-104" class="init-animate post-104 page type-page status-publish hentry">
+
+		<div class="content-wrapper">
+		<div class="entry-content">
+					</div>
+<!-- .entry-content -->
+        	</div>
+</article><!-- #post-## -->		</main><!-- #main -->
+	</div>
+<!-- #primary -->
+	    <div id="secondary-right" class="at-fixed-width widget-area sidebar secondary-sidebar" role="complementary">
+        <div id="sidebar-section-top" class="widget-area sidebar clearfix">
+			<section id="search-2" class="widget widget_search"><div class="search-block">
+    <form action="./../index.html" class="searchform" id="searchform" method="get" role="search">
+        <div>
+            <label for="menu-search" class="screen-reader-text"></label>
+                        <input type="text" placeholder="" class="menu-search" id="menu-search" name="s" value="">
+            <button class="searchsubmit fa fa-search" type="submit" id="searchsubmit"></button>
+        </div>
+    </form>
+</div></section>
+		<section id="recent-posts-2" class="widget widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="./../2019/01/06/what-is-the-best-web/index.html">What Is the best web</a>
+									</li>
+											<li>
+					<a href="./../2019/01/06/basic-of-ui-ux/index.html">Basic Of Ui/Ux</a>
+									</li>
+											<li>
+					<a href="./../2019/01/06/design-cheatsheet-2018/index.html">Design Cheatsheet 2018</a>
+									</li>
+											<li>
+					<a href="./../2019/01/06/workflow-generator/index.html">Workflow Generator</a>
+									</li>
+					</ul>
+
+		</section><section id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Recent Comments</h2>
+<ul id="recentcomments"></ul></section><section id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archives</h2>
+			<ul>
+					<li><a href="./../2019/01/index.html">January 2019</a></li>
+			</ul>
+
+			</section><section id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="./../category/coding/index.html">Coding</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="./../category/web-design/index.html">Web Design</a>
+</li>
+	<li class="cat-item cat-item-2">
+<a href="./../category/web-development/index.html">Web Development</a>
+</li>
+			</ul>
+
+			</section><section id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>
+		<ul>
+						<li><a href="./../wp-login.php">Log in</a></li>
+			<li><a href="./../feed/index.html">Entries feed</a></li>
+			<li><a href="./../comments/feed/index.html">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</section>        </div>
+    </div>
+</div>
+<!-- #content -->
+        <div class="clearfix"></div>
+        </div>
+<!-- #page -->
+        <footer class="site-footer" style=" background-image:url(./wp-content/uploads/2021/03/cai-carney-deaqEVtdSgk-unsplash.jpg);background-repeat:no-repeat;background-size:cover;background-position:center;">
+                            <div class="footer-columns at-fixed-width">
+                    <div class="container">
+                        <div class="row">
+			                                                <div class="footer-sidebar col-sm-6 init-animate zoomIn">
+					                <aside id="custom_html-3" class="widget_text widget widget_custom_html"><h3 class="widget-title"><span>Get in touch</span></h3>
+<div class="textwidget custom-html-widget"><div class="contact-info">
+<ul>
+ 	<li>
+<strong>Email Address</strong>
+<a href="#">zaidali753@gmail.com</a>
+</li>
+ 	<li>
+<strong>Phone Number</strong>
++91 7500828785</li>
+ 	<li>
+<strong>Location</strong>
+Farrukhabad , Uttar Pradesh</li>
+</ul>
+</div></div></aside>                                </div>
+			                                                <div class="footer-sidebar col-sm-6 init-animate zoomIn">
+					                <aside id="rtc_social_links-3" class="widget widget_rtc_social_links"><h3 class="widget-title"><span><span>Subscribe and Follow</span></span></h3>            <ul class="social-networks">
+                                                <li class="rtc-social-icon-wrap">
+                                    <a title="facebook" target="_blank" href="https://www.facebook.com/Harrison.Wells.Alive/">
+                                        <span class="rtc-social-links-field-handle"> <i class="fab fa-facebook"></i></span>
+                                    </a>
+                                </li>
+                                                            <li class="rtc-social-icon-wrap">
+                                    <a title="instagram" target="_blank" href="https://instagram.com/ali_zaid_753?igshid=k6fu26tohxry">
+                                        <span class="rtc-social-links-field-handle"> <i class="fab fa-instagram"></i></span>
+                                    </a>
+                                </li>
+                                        </ul>
+        </aside>                                </div>
+			                                        </div>
+                    </div>
+<!-- bottom-->
+                </div>
+                <div class="clearfix"></div>
+                            <div class="copy-right">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 init-animate">
+                            <div class="footer-copyright text-left">
+	                                                                <p class="at-display-inline-block">
+			                            &copy; All right reserved                                    </p>
+	                                                        </div>
+                        </div>
+                        <div class="col-sm-6 init-animate">
+                                                    </div>
+                    </div>
+                </div>
+                <a href="#page" class="sm-up-container"><i class="fa fa-angle-up sm-up"></i></a>
+            </div>
+        </footer>
+            <!-- Modal -->
+        <div id="at-shortcode-bootstrap-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+					                                <h4 class="modal-title">#</h4>
+						                        </div>
+				                    </div>
+<!--.modal-content-->
+            </div>
+        </div>
+<!--#at-shortcode-bootstrap-modal-->
+    <script type="text/javascript" src="./../wp-content/plugins/gutentor/assets/library/wow/wow.min.js?ver=1.2.1" id="wow-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="./wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"><\/scr' + 'ipt>' );( document.contains ) || document.write( '<script src="./wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="./wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="./wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"><\/scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="./wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"><\/scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="./wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"><\/scr' + 'ipt>' );
+</script>
+<script type="text/javascript" src="./../wp-includes/js/dist/i18n.min.js?ver=ac389435e7fd4ded01cf603f3aaba6a6" id="wp-i18n-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19" id="lodash-js"></script>
+<script type="text/javascript" id="lodash-js-after">
+window.lodash = _.noConflict();
+</script>
+<script type="text/javascript" src="./../wp-includes/js/dist/url.min.js?ver=98645f0502e5ed8dadffd161e39072d2" id="wp-url-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/dist/hooks.min.js?ver=84b89ab09cbfb4469f02183611cc0939" id="wp-hooks-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type="text/javascript" src="./../wp-includes/js/dist/api-fetch.min.js?ver=4dec825c071b87c57f687eb90f7c23c3" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "./wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "f6ecdae3d0" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "./wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4" id="contact-form-7-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/raratheme-companion/public/js/isotope.pkgd.min.js?ver=3.0.5" id="isotope-pkgd-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/raratheme-companion/public/js/raratheme-companion-public.min.js?ver=1.3.6" id="raratheme-companion-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/raratheme-companion/public/js/fontawesome/all.min.js?ver=5.6.3" id="all-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/raratheme-companion/public/js/fontawesome/v4-shims.min.js?ver=5.6.3" id="v4-shims-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/gutentor/assets/library/slick/slick.min.js?ver=1.8.1" id="slick-js"></script>
+<script type="text/javascript" src="./../wp-content/themes/portfolio-web/acmethemes/core/js/skip-link-focus-fix.js?ver=20130115" id="portfolio-web-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="./../wp-content/themes/portfolio-web/assets/library/bootstrap/js/bootstrap.min.js?ver=3.3.6" id="bootstrap-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/gutentor/assets/library/magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0" id="magnific-popup-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/gutentor/assets/library/isotope/isotope.pkgd.min.js?ver=3.0.6" id="isotope-js"></script>
+<script type="text/javascript" src="./../wp-content/themes/portfolio-web/assets/library/countUp/countUp.js?ver=1.0.0" id="countup-js"></script>
+<script type="text/javascript" src="./../wp-content/themes/portfolio-web/assets/library/waypoints/jquery.waypoints.min.js?ver=1.0.0" id="waypoint-js"></script>
+<script type="text/javascript" src="./../wp-content/themes/portfolio-web/assets/library/jquery-easypiechart/jquery.easypiechart.js?ver=1.0.0" id="easypiechart-js"></script>
+<script type="text/javascript" id="portfolio-web-custom-js-extra">
+/* <![CDATA[ */
+var portfolio_web_ajax = {"ajaxurl":".\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../wp-content/themes/portfolio-web/assets/js/portfolio-web-custom.js?ver=1.0.5" id="portfolio-web-custom-js"></script>
+<script type="text/javascript" id="gutentor-block-js-extra">
+/* <![CDATA[ */
+var gutentorLS = {"fontAwesomeVersion":"4","restNonce":"f6ecdae3d0","restUrl":".\/wp-json\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../wp-content/plugins/gutentor/assets/js/gutentor.min.js?ver=3.0.5" id="gutentor-block-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/wp-embed.min.js?ver=5.6.2" id="wp-embed-js"></script>
+</body>
+</html>
